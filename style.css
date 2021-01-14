@@ -1,0 +1,130 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h3 {
+  display: block;
+  color: #363958;
+  font-family: Bebas Neue;
+  background-color: antiquewhite;
+}
+h6 {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  color: #76c27e;
+}
+/*-- Header Area --*/
+header {
+  background-color: #f4fff8;
+}
+/*-- Banner Area --*/
+
+.banner-area {
+  padding: 70px 0px;
+}
+.banner-images img {
+  width: 100%;
+  margin-right: 100px;
+}
+.ban-text {
+  margin: 10px 0px;
+  float: left;
+}
+.ban-text h1 {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #363958;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+.ban-text h1 span {
+  color: #76c27e;
+}
+.ban-text a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #363958;
+  width: 170px;
+  line-height: 60px;
+  border-radius: 10px;
+}
+.p-2 border bg-light text-success {
+  display: flex;
+  border-style: none;
+}
+
+.col img {
+  background-color: #f1f1f1;
+  width: 95%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+/*-- Contact Area --*/
+
+.contact-area {
+  padding-top: 40px;
+}
+
+#card100 {
+  background-color: #f8ffff87;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #4c3121cc;
+  padding: 25px 10px;
+  margin-bottom: 20px;
+}
+
+#card100 img {
+  display: block;
+  width: 60px;
+  margin: 0px auto;
+}
+#card100 h4 {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4c3121cc;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+#card100 p {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #4c3121cc;
+  line-height: 25px;
+}
+
+.contact-right img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  margin: 154px auto;
+}
+/*------- responsive -------*/
+@media (max-width: 688px) {
+  .header-top .container img {
+    width: 310px;
+  }
+  .banner-area {
+    padding: 25px 0px;
+  }
+  .contact-right img {
+    margin: 25px auto;
+  }
+}
